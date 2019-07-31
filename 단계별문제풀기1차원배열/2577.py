@@ -16,3 +16,13 @@ print(result.count('6'))
 print(result.count('7'))
 print(result.count('8'))
 print(result.count('9'))
+
+
+#출력을 반복문으로.
+A = int(input())
+B = int(input())
+C = int(input())
+N = A * B * C
+N = str(N)
+for i in range(10):
+    print(N.count(str(i)))
