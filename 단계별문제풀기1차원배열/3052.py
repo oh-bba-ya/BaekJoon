@@ -1,0 +1,27 @@
+A =int(input())
+B =int(input())
+C =int(input())
+D =int(input())
+E =int(input())
+F =int(input())
+G =int(input())
+H =int(input())
+I =int(input())
+J =int(input())
+result = []
+result2 = []
+result.append(A)
+result.append(B)
+result.append(C)
+result.append(D)
+result.append(E)
+result.append(F)
+result.append(G)
+result.append(H)
+result.append(I)
+result.append(J)
+for i in result:
+    N = i % 42
+    result2.append(N)
+s2=set(result2)
+print(len(s2))
